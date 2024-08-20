@@ -1,3 +1,5 @@
+import { SafeResourceUrl } from "@angular/platform-browser";
+
 export interface Live{
     id: number;
     liveName: string;
@@ -5,4 +7,5 @@ export interface Live{
     liveDate: string;
     liveLink: string;
     registrationDate: string; 
+    urlSafe: SafeResourceUrl;
 }
